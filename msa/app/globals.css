@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@500&display=swap");
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,11 +18,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Anton", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #e6e5dc;
 }
