@@ -14,7 +14,7 @@ const Header = () => {
         /> */}
         <div className="text-3xl mt-1 font-bold cursor-pointer">msa.</div>
       </div>
-      <div className="flex items-center gap-x-2 mt-6 me-6 ">
+      <div className="flex items-center gap-x-7 mt-6 me-6 ">
         <Image
           src="/images/logo-black.png"
           width={30}
