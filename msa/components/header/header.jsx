@@ -3,8 +3,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex justify-between">
-      <div className="flex gap-x-1  mt-6 ms-6">
+    <div className="flex justify-between ">
+      <div className="flex gap-x-3 mt-6 ms-6">
         {/* <Image
           src="/images/personal.png"
           width={60}
@@ -14,17 +14,23 @@ const Header = () => {
         /> */}
         <div className="text-3xl mt-1 font-bold">msa.</div>
       </div>
-      <div className="flex items-center gap-x-2 me-6 ">
-        <Image src="/images/twitter-x.webp" width={40} height={40} alt="x" />
+      <div className="flex items-center gap-x-2 mt-6 me-6 ">
         <Image
-          src="/images/icon-linkedin.svg"
+          src="/images/logo-black.png"
+          width={30}
+          height={30}
+          alt="x"
+          className=""
+        />
+        <Image
+          src="/images/linkedin.png"
           width={40}
           height={40}
           alt="linkedin"
           className
         />
         <Image
-          src="/images/icon-github.svg"
+          src="/images/iconmonstr-github-1.svg"
           width={40}
           height={40}
           alt="github"
