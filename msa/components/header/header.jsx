@@ -12,7 +12,7 @@ const Header = () => {
           className="rounded-full"
           alt="pers"
         /> */}
-        <div className="text-3xl mt-1 font-bold">msa.</div>
+        <div className="text-3xl mt-1 font-bold cursor-pointer">msa.</div>
       </div>
       <div className="flex items-center gap-x-2 mt-6 me-6 ">
         <Image
@@ -20,20 +20,21 @@ const Header = () => {
           width={30}
           height={30}
           alt="x"
-          className=""
+          className="cursor-pointer"
         />
         <Image
           src="/images/linkedin.png"
           width={40}
           height={40}
           alt="linkedin"
-          className
+          className="cursor-pointer"
         />
         <Image
           src="/images/iconmonstr-github-1.svg"
           width={40}
           height={40}
           alt="github"
+          className="cursor-pointer"
         />
       </div>
     </div>
