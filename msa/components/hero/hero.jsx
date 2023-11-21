@@ -5,8 +5,8 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="flex flex-row mt-[8rem] gap-x-6">
-      <div className="ms-6 flex flex-col justify-center ">
-        <h1 className="text-6xl font-bold gap-y-2">
+      <div className="ms-6 flex flex-col justify-center gap-y-5 ">
+        <h1 className="text-6xl font-bold ">
           Nice to meet you! I'am{" "}
           <span className="underline underline-offset-2 decoration-sky-500">
             Muhammet Salih Aslan
@@ -16,7 +16,10 @@ const Hero = () => {
           Based on Turkiye, I'm front-end developer passionate about building
           accesible web apps that users love.
         </p>
-        <Tolink toWhere={"contact me"} privateClass="mt-8" />
+        <Tolink
+          toWhere={"contact me"}
+          privateClass="underline underline-offset-2 decoration-sky-500"
+        />
       </div>
       <Image
         src="/images/mypage.jpg"
