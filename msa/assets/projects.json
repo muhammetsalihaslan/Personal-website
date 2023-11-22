@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"title": "Bmi Calculator",
+		"skills": ["JavaScript", "React", "Nextjs", "Tailwindcss"],
+		"projectUrl": "https://fm2bmi.netlify.app/",
+		"sourceCodeUrl": "https://github.com/muhammetsalihaslan/bmi-calculator",
+		"image": "/projects/bmicalculator.png"
+	},
+	{
+		"id": 2,
+		"title": "Newsletter",
+		"skills": ["JavaScript", "React", "Nextjs", "Tailwindcss"],
+		"projectUrl": "https://newsletterprojectfmp1.netlify.app/",
+		"sourceCodeUrl": "https://github.com/muhammetsalihaslan/fmP1",
+		"image": "/projects/newsletter.png"
+	},
+	{
+		"id": 3,
+		"title": "Task Tracker",
+		"skills": ["JavaScript", "React", "CSS"],
+		"projectUrl": "https://task-trackermsa.netlify.app/",
+		"sourceCodeUrl": "https://github.com/muhammetsalihaslan/task-tracker",
+		"image": "/projects/tasktracker.png"
+	},
+	{
+		"id": 4,
+		"title": "Recipe App",
+		"skills": ["JavaScript", "React", "CSS"],
+		"projectUrl": "https://msa-recipe-app.netlify.app/",
+		"sourceCodeUrl": "https://github.com/muhammetsalihaslan/recipe_app_new",
+		"image": "/projects/recipeApp.png"
+	},
+	{
+		"id": 5,
+		"title": "Todo",
+		"skills": ["JavaScript", "React", "CSS"],
+		"projectUrl": "https://reduxtodo87.netlify.app/",
+		"sourceCodeUrl": "https://github.com/muhammetsalihaslan/redux-todo",
+		"image": "/projects/todo.png"
+	}
+]
