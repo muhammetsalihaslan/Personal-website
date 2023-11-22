@@ -10,25 +10,27 @@ const Projects = () => {
       <div>
         <h1 className="text-5xl">Projects</h1>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 mt-[3rem] gap-y-2">
         {ProjectsData.map((project) => (
           <div key={project.id} className="w-[535px] h-[500px]">
             <Image
               src={project.images}
               alt={project.title}
-              width={535}
+              width={500}
               height={400}
-              className="object-cover"
+              className="object-fill"
             />
-            <h1>{project.title}</h1>
-            <div>
-              {project.skills.map((skill, index) => (
-                <p key={index}>{skill}</p>
-              ))}
-            </div>
-            <div>
-              <Tolink toWhere="wiev project" />
-              <Tolink toWhere="wiev code" />
+            <div className="flex flex-col">
+              <h1>{project.title}</h1>
+              <div className="flex ">
+                {project.skills.map((skill, index) => (
+                  <p key={index}>{skill}</p>
+                ))}
+              </div>
+              <div className="flex">
+                <Tolink toWhere="wiev project" />
+                <Tolink toWhere="wiev code" />
+              </div>
             </div>
           </div>
         ))}
