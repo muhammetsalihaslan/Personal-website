@@ -38,5 +38,13 @@
 		"projectUrl": "https://reduxtodo87.netlify.app/",
 		"sourceCodeUrl": "https://github.com/muhammetsalihaslan/redux-todo",
 		"images": "/projects/todo.png"
+	},
+	{
+		"id": 6,
+		"title": "Coffee",
+		"skills": ["JavaScript", "React", "CSS"],
+		"projectUrl": "https://coffee257.netlify.app/",
+		"sourceCodeUrl": "https://github.com/muhammetsalihaslan/coffe",
+		"images": "/projects/coffee.png"
 	}
 ]
