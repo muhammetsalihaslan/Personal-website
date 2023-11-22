@@ -5,7 +5,7 @@
 		"skills": ["JavaScript", "React", "Nextjs", "Tailwindcss"],
 		"projectUrl": "https://fm2bmi.netlify.app/",
 		"sourceCodeUrl": "https://github.com/muhammetsalihaslan/bmi-calculator",
-		"image": "/projects/bmicalculator.png"
+		"images": "/projects/bmicalculator.png"
 	},
 	{
 		"id": 2,
@@ -13,7 +13,7 @@
 		"skills": ["JavaScript", "React", "Nextjs", "Tailwindcss"],
 		"projectUrl": "https://newsletterprojectfmp1.netlify.app/",
 		"sourceCodeUrl": "https://github.com/muhammetsalihaslan/fmP1",
-		"image": "/projects/newsletter.png"
+		"images": "/projects/newsletter.png"
 	},
 	{
 		"id": 3,
@@ -21,7 +21,7 @@
 		"skills": ["JavaScript", "React", "CSS"],
 		"projectUrl": "https://task-trackermsa.netlify.app/",
 		"sourceCodeUrl": "https://github.com/muhammetsalihaslan/task-tracker",
-		"image": "/projects/tasktracker.png"
+		"images": "/projects/tasktracker.png"
 	},
 	{
 		"id": 4,
@@ -29,7 +29,7 @@
 		"skills": ["JavaScript", "React", "CSS"],
 		"projectUrl": "https://msa-recipe-app.netlify.app/",
 		"sourceCodeUrl": "https://github.com/muhammetsalihaslan/recipe_app_new",
-		"image": "/projects/recipeApp.png"
+		"images": "/projects/recipeApp.png"
 	},
 	{
 		"id": 5,
@@ -37,6 +37,6 @@
 		"skills": ["JavaScript", "React", "CSS"],
 		"projectUrl": "https://reduxtodo87.netlify.app/",
 		"sourceCodeUrl": "https://github.com/muhammetsalihaslan/redux-todo",
-		"image": "/projects/todo.png"
+		"images": "/projects/todo.png"
 	}
 ]
