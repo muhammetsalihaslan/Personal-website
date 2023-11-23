@@ -19,7 +19,7 @@ const Projects = () => {
                 alt={project.title}
                 width={450}
                 height={400}
-                className="cursor-pointer lg:group-hover:opacity-50 "
+                className="cursor-pointer lg:group-hover:opacity-25 "
               />
               <div className="flex gap-x-2 mt-[55px] absolute lg:w-[200px]  lg:-mt-[8rem] lg:flex lg:flex-col lg:items-center lg:ms-[7rem] lg:gap-y-2 lg:cursor-pointer lg:invisible lg:group-hover:visible  ">
                 <Tolink
