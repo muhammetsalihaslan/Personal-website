@@ -10,26 +10,33 @@ const Projects = () => {
       <div>
         <h1 className="text-5xl">Projects</h1>
       </div>
-      <div className="grid grid-cols-2 mt-[3rem] gap-y-2">
+      <div className="grid grid-cols-2 mt-[3rem] gap-y-1 ms-6 lg:items-center ">
         {ProjectsData.map((project) => (
-          <div key={project.id} className="w-[535px] h-[500px]">
+          <div key={project.id} className="w-[535px] h-[300px]">
             <Image
               src={project.images}
               alt={project.title}
-              width={500}
+              width={450}
               height={400}
-              className="object-fill"
+              className="peer cursor-pointer "
             />
-            <div className="flex flex-col">
-              <h1>{project.title}</h1>
-              <div className="flex ">
+
+            <div className="flex flex-col gap-y-1 ">
+              <h1 className="text-2xl">{project.title}</h1>
+              <div className="flex gap-x-2 ">
                 {project.skills.map((skill, index) => (
                   <p key={index}>{skill}</p>
                 ))}
               </div>
-              <div className="flex">
-                <Tolink toWhere="wiev project" />
-                <Tolink toWhere="wiev code" />
+              <div className="flex lg:invisible  gap-x-2 lg:w-[200px] lg:relative lg:-mt-[12rem] lg:flex lg:flex-col lg:items-center lg:ms-[7rem] lg:gap-y-2 lg:cursor-pointer lg:peer-hover:visible ">
+                <Tolink
+                  toWhere="wiev project"
+                  privateClass="underline underline-offset-4 decoration-sky-500"
+                />
+                <Tolink
+                  toWhere="wiev code"
+                  privateClass="underline underline-offset-4 decoration-sky-500"
+                />
               </div>
             </div>
           </div>
