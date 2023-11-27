@@ -4,7 +4,7 @@ import React from "react";
 const Tolink = ({ toWhere, privateClass, children, toref }) => {
   return (
     <div>
-      <Link href={toref} className={privateClass}>
+      <Link href={`${toref}`} className={privateClass}>
         {toWhere}
         {children}
       </Link>
