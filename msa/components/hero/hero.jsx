@@ -17,7 +17,8 @@ const Hero = () => {
           accesible web apps that users love.
         </p>
         <Tolink
-          toWhere="contact me"
+          toref="https://app.enhancv.com/share/d51793a8/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic"
+          toWhere="resume"
           privateClass="underline underline-offset-2 decoration-sky-500 text-xl hover:text-sky-500"
         />
       </div>
