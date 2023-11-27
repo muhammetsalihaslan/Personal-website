@@ -36,6 +36,13 @@ const Header = () => {
           alt="github"
           className="cursor-pointer"
         />
+        <Image
+          src="/images/netlify-icon-seeklogo.com.svg"
+          width={40}
+          height={40}
+          alt="netlify"
+          className="cursor-pointer"
+        />
       </div>
     </div>
   );

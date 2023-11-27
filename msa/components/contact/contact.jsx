@@ -29,7 +29,7 @@ const Contact = () => {
           />
           <Tolink
             toWhere="send message"
-            privateClass="underline underline-offset-4 decoration-sky-500 hover:text-sky-500 text-xl flex justify-items-end"
+            privateClass="underline underline-offset-4 decoration-sky-500 hover:text-sky-500 text-xl max-w-fit flex justify-items-end"
           />
         </form>
       </div>
