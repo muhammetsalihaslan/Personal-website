@@ -6,19 +6,19 @@ const Skills = () => {
       <hr className=" border border-black me-6 " />
       <div className="grid grid-cols-3 gap-y-5 mt-8">
         <div className="">
-          <h1 className="text-3xl font-bold">React</h1>
+          <h1 className="text-3xl font-bold">REACT</h1>
           <p>2 Years Experience</p>
         </div>
         <div className="">
-          <h1 className="text-3xl font-bold">JavaScript</h1>
+          <h1 className="text-3xl font-bold">JAVASCRIPT</h1>
           <p>2 Years Experience</p>
         </div>
         <div className="">
-          <h1 className="text-3xl font-bold">Nextjs</h1>
+          <h1 className="text-3xl font-bold">NEXTJS</h1>
           <p>1 Years Experience</p>
         </div>
         <div className="">
-          <h1 className="text-3xl font-bold">tailwindcss</h1>
+          <h1 className="text-3xl font-bold">TAILWINDCSS</h1>
           <p>1 Years Experience</p>
         </div>
       </div>

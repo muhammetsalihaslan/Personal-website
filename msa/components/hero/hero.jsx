@@ -17,8 +17,8 @@ const Hero = () => {
           accesible web apps that users love.
         </p>
         <Tolink
-          toWhere={"contact me"}
-          privateClass="underline underline-offset-2 decoration-sky-500"
+          toWhere="contact me"
+          privateClass="underline underline-offset-2 decoration-sky-500 text-xl hover:text-sky-500"
         />
       </div>
       <Image
