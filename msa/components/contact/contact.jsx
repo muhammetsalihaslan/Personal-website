@@ -3,15 +3,15 @@ import Tolink from "../link/tolink";
 
 const Contact = () => {
   return (
-    <div className="mt-10 grid grid-cols-2 justify-center text-center ms-6 me-6 gap-x-6 h-[25rem]">
-      <div className="flex flex-col justify-center text-center gap-y-6 ms-6">
+    <div className="mt-10  grid grid-rows-2 md:grid-cols-2  justify-center text-center ms-6 me-6 gap-x-6 md:h-[25rem]">
+      <div className="flex flex-col justify-center items-center md:mt-[13rem]  gap-y-6 ms-6">
         <h1 className="text-5xl">Contact</h1>
         <p>
           I would love to hear about your project and how I could help. Please
           fill in the form, and I’ll get back to you as soon as possible.
         </p>
       </div>
-      <div className="mt-10">
+      <div className="md:mt-10">
         <form action="submit" className="flex flex-col gap-y-6">
           <input
             type="text"
