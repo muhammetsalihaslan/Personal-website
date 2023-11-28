@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="flex flex-row mt-[8rem] gap-x-6">
+    <div className="flex flex-col-reverse   md:flex-row mt-[8rem] gap-x-6">
       <div className="ms-6 flex flex-col justify-center gap-y-5 ">
         <h1 className="text-6xl font-bold ">
           Nice to meet you! I'am{" "}
@@ -22,12 +22,14 @@ const Hero = () => {
           privateClass="underline underline-offset-2 decoration-sky-500 text-xl hover:text-sky-500"
         />
       </div>
-      <Image
-        src="/images/mypage.jpg"
-        width={300}
-        height={100}
-        className="rounded-full me-6"
-      />
+      <div className="flex justify-center ms-[40px] -me-[20px] -mt-[25px] md:ms-0 md:-me-0 md:-mt-0">
+        <Image
+          src="/images/mypage.jpg"
+          width={300}
+          height={100}
+          className="rounded-full me-6"
+        />
+      </div>
     </div>
   );
 };

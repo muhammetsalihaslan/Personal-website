@@ -10,7 +10,7 @@ const Header = () => {
           msa.
         </div>
       </div>
-      <div className="flex items-center gap-x-7 mt-6 me-6  ">
+      <div className="flex items-center gap-x-7 -ms-[2rem] mt-6 me-6 md:-ms-0 ">
         <Tolink toref="https://twitter.com/muhammetsalih34">
           <Image src="/images/logo-black.png" width={30} height={30} alt="x" />
         </Tolink>
