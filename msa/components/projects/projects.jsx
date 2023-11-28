@@ -23,10 +23,12 @@ const Projects = () => {
               />
               <div className="flex gap-x-2 mt-[55px] absolute lg:w-[200px]  lg:-mt-[8rem] lg:flex lg:flex-col lg:items-center lg:ms-[7rem] lg:gap-y-2 lg:cursor-pointer lg:invisible lg:group-hover:visible  ">
                 <Tolink
+                  toref={project.projectUrl}
                   toWhere="wiev project"
                   privateClass="underline underline-offset-4 decoration-sky-500"
                 />
                 <Tolink
+                  toref={project.sourceCodeUrl}
                   toWhere="wiev code"
                   privateClass="underline underline-offset-4 decoration-sky-500"
                 />
