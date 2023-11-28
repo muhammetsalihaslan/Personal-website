@@ -6,11 +6,11 @@ import Tolink from "../link/tolink";
 
 const Projects = () => {
   return (
-    <div className="ms-6 me-6 mt-[3rem]">
+    <div className="ms-6 me-6 mt-[3rem] flex flex-col items-center md:items-start ">
       <div>
         <h1 className="text-5xl">Projects</h1>
       </div>
-      <div className="grid grid-cols-2 mt-[3rem] gap-y-1 ms-6 lg:items-center ">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-[3rem] gap-y-1 ms-6  ">
         {ProjectsData.map((project) => (
           <div key={project.id} className="w-[535px] h-[300px] group relative">
             <div className="group">
@@ -18,8 +18,8 @@ const Projects = () => {
                 src={project.images}
                 alt={project.title}
                 width={450}
-                height={400}
-                className="cursor-pointer lg:group-hover:opacity-25 "
+                height={450}
+                className="cursor-pointer  lg:group-hover:opacity-25 "
               />
               <div className="flex gap-x-2 mt-[55px] absolute lg:w-[200px]  lg:-mt-[8rem] lg:flex lg:flex-col lg:items-center lg:ms-[7rem] lg:gap-y-2 lg:cursor-pointer lg:invisible lg:group-hover:visible  ">
                 <Tolink
