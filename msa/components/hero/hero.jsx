@@ -5,7 +5,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="flex flex-col-reverse   md:flex-row mt-[8rem] gap-x-6">
-      <div className="ms-6 flex flex-col justify-center gap-y-5 ">
+      <div className="ms-6 flex flex-col text-center md:text-start gap-y-5 ">
         <h1 className="text-6xl font-bold ">
           Nice to meet you! I'am{" "}
           <span className="underline underline-offset-2 decoration-sky-500">
